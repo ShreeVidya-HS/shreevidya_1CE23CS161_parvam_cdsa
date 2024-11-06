@@ -23,5 +23,7 @@ int main(){
         case 6:
             printf("intelligent\npassionate\nwhiny");
             break;
+        default: printf("go die");
+        break;
     }
 }

@@ -2,6 +2,7 @@
 int main(){
     int valid=1;
     int invalid=!valid;
-    printf("%d\n", valid);
-    printf("%d", invalid);
+    printf("a = %d\n", valid);
+    printf("a'= %d", invalid);
 }
+
