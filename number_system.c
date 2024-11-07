@@ -25,4 +25,7 @@ int main(){
    printf("%10s\n",s); 
    printf("I am %10s and i'm spidey!\n",s); 
    printf("I'm a %6d and i'm spidey!\n",a);  
-}  
+} 
+
+
+

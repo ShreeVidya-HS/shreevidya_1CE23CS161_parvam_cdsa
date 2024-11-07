@@ -9,17 +9,15 @@ int forloop() {
     // Handle the case where n is negative  
     if(n < 0) {  
         printf("Please enter a positive number.\n");  
-        return 0; // Return early if the number is negative  
+        return 0; 
     }  
 
     for(i = 1; i <= n; i++) {  
-        fact = fact * i; // Calculate factorial  
+        fact = fact * i; 
     }  
     printf("\nFactorial of %d: %d\n", n, fact);   
     return 0;  
-}  
-
-// Function to calculate factorial using while loop  
+} 
 int ifs() {  
     int n, fact = 1, i = 1; // Declare variables and initialize i  
     printf("Enter a number to find factorial: "); // Corrected the message  
@@ -28,7 +26,7 @@ int ifs() {
     // Handle the case where n is negative  
     if(n < 0) {  
         printf("Please enter a positive number.\n");  
-        return 0; // Return early if the number is negative  
+        return 0; 
     }  
 
     while(i <= n) { // Loop until i reaches n  
